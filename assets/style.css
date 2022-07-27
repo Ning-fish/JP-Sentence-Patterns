@@ -1,0 +1,400 @@
+/*
+	Horizons by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+@import url("font-awesome.min.css");
+@import url("http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900");
+
+/* Basic */
+
+	/* body background */
+	body {
+		background-color:#FFF8D7;
+		width:100%;
+		height:100%;
+		margin:0px;
+		}
+	/* li  */
+	li {
+		color:blue;
+		font-size: 1em;
+		font-weight: bold;
+		transition: all 0.2s ease-in-out;
+		margin: 0 0.4em;
+
+		}
+		li:hover {
+			transform: scale(1.15);
+			} 
+
+	body, input, select, textarea{
+		color: #555555;
+		font-family: 'Raleway', sans-serif;
+		font-size: 13pt;
+		font-weight: 300;
+		line-height: 1.75em;
+		text-align: left;
+	}
+	
+
+	a {
+		color: #FFF8D7;
+		/*text-decoration: underline;*/
+		text-align: right;
+		background-color: #CF9E9E;
+
+
+	}
+
+		a:hover {
+			text-decoration: none;
+			color: #FFFFFF
+		}
+
+	strong, b {
+		font-weight: 700;
+	}
+
+	em, i {
+		font-style: italic;
+	}
+
+	p, ul, ol, dl, table, blockquote {
+		margin: 0 0 2em 0;
+        padding : 0.7em
+	}
+
+
+	h1, h2, h3, h4, h5, h6 {
+		color: inherit;
+		font-weight: 700;
+		line-height: 1.75em;
+		margin-bottom: 1em;
+	}
+
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	h3 {
+		font-size: 1.25em;
+	}
+
+	sub {
+		font-size: 0.8em;
+		position: relative;
+		top: 0.5em;
+	}
+
+	sup {
+		font-size: 0.8em;
+		position: relative;
+		top: -0.5em;
+	}
+
+	hr {
+		margin-bottom: 1em;
+/*         border-top: 0.2em solid; */
+		
+	}
+
+    tr {
+/*          border-bottom:3px #82FFFF solid; */
+    }
+
+	blockquote {
+		border-left: solid 0.5em #888888;
+		font-style: italic;
+		padding: 1em 0 1em 2em;
+	}
+
+	section.special, article.special {
+		text-align: center;
+	}
+
+	header.major {
+		padding-bottom: 4em;
+	}
+
+	header h2 {
+		margin: 0;
+		padding: 0;
+		font-size: 3em;
+		font-weight: 600;
+	}
+
+	header .byline {
+		font-size: 1.6em;
+	}
+
+	footer > :last-child {
+		margin-bottom: 0;
+	}
+
+	footer.major {
+		padding-top: 3em;
+	}
+
+
+
+	#container {
+		width: vw;
+		height: vh;
+    }
+    
+	/*顶部logo条带样式*/
+    #logo {    
+		width:100%;
+        height:2%;
+        background-image:url("npp.png");
+        background-repeat:no-repeat;
+        background-size:100% 100%;
+    }
+	
+     /*顶部样式*/
+    #header {
+        width:100%;
+        height:auto;
+		padding: 0.5em 0;
+        background-color:#dde2b1;
+		line-height: 2em;
+		margin-bottom: 1em;
+		float: center;
+        margin: auto;
+        font-family: UD デジタル 教科書体 NK-B;
+    }
+	
+                                           
+	/*中间部分面板样式*/
+    #main {
+        width:100%;
+        height:70%;
+		padding: 1em 0;
+        background-color:#FFF8D7;
+		text-align: center;
+        font-family: UD デジタル 教科書体 NK-B;
+    }  
+    
+	
+	/*中间2部分面板样式*/
+    #main2 {
+        width:100%;
+        height:70%;
+		padding: 1em 0;
+        background-color:#FFF8D7;
+		text-align: center;
+        font-family: UD デジタル 教科書体 NK-R;
+    }  
+	
+	/*底部面板样式*/
+    #footer {
+		color: #FFFFFF;
+		text-align: center;
+        width:100%;
+        height:7%;
+		padding: 1em 0;
+        background-color:#272727;
+        font-family: UD デジタル 教科書体 NK-B;
+		
+	}
+	/*左侧部分面板样式*/
+	#mleft {
+		width:20%;
+		height:100%;
+		background-color:black;
+		float:left;
+		} 
+	/*中间部分面板样式*/
+	#mmap {
+		width:60%;
+		height:100%;
+		float:left;
+		}
+	/*右侧部分面板样式*/
+	#mright {
+		width:20%;
+		height:100%;
+		background-color:rgb(186, 218, 199);
+		float:left;
+		}
+	/*左侧上面部分分面板样式*/
+	#left-top {
+		width:100%;
+		height:33%;
+		background-color:lightblue;
+	}
+	/*左侧中间部分面板样式*/
+	#left-middle {
+		width:100%;
+		height:33%;
+		background-color:greenyellow;
+	}
+	/*左侧右侧部分面板样式*/
+	#left-right {
+		width:100%;
+		height:33%;
+		background-color:rgb(179, 173, 230);
+		float:left;
+	}
+	
+	
+
+	label {
+	  padding: 0;
+	  cursor: pointer;
+	}
+	input[type="checkbox"] {
+	  display: none;
+	}
+	input[type="checkbox"]+span {
+	  display: inline-block;
+	  padding-left: 26px; 
+	  line-height: 20px;
+	  background: url(https://i.imgur.com/bZM5Itd.png) no-repeat left top;
+				user-select: none;
+	}
+	input[type="checkbox"]:checked+span {
+	  background: url(https://i.imgur.com/JWm4WKA.png) no-repeat left top;
+	}
+	
+	button {
+	  background-color: #E8E8D0; 
+	  border:3px #5B5B5B double;
+	  border-radius: 20px;
+	  color: #4F4F4F;
+	  padding: 10px 28px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	}
+	
+	.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #FFFFFF;
+    background-color: #C48888;
+    border-color: #eceeef #eceeef #fff;
+	/*margin: 0 0.4em;*/
+	}
+		
+	.nav-tabs {
+    border-bottom: 2px solid #CF9E9E;
+	padding: 0.05em 0.4em;
+	}
+	
+	.form-control {
+		width: 50%;
+		display: inline;
+	}
+
+/*標籤 className*/
+
+	.mr-1 {
+		margin: 0 1em;
+		text-align: center;
+		background-position: center;
+	}
+	
+	.mr-2 {
+		background-color: #82B0DE;
+		padding: 0.5em;
+		text-align: center;
+		background-position: center;
+		margin: 0 1em;
+		border-radius: 5px;
+        font-family: UD デジタル 教科書体 NK-B;
+	}
+	.mr-3 {
+		padding: 0.3em 0em;
+		background-position: center;
+		margin: 0.2em 0em;
+		border-radius: 5px;
+        font-family: UD デジタル 教科書体 NK-R;
+	}
+
+/*表格*/
+    #table_header_body{
+        text-align: left;
+        font-size: 15px;
+    }
+/*選項*/
+    #pattern_id_dropdown, #dict_dropdown{
+        margin: 0 2em;
+        font-size: 15px;
+        padding: 1em 0em;
+    }
+/*跳出窗*/
+    #open, #open2, #open3{
+        border:3px #5B5B5B;
+        margin: 0.5em 0.8em;
+        padding: 1em 0.5em;
+        border-radius: 5px;
+        width : 30%;
+        display:inline-block;
+        font-size: 15pt;
+        font-weight: bold;
+        font-family: UD デジタル 教科書体 NK-B;
+    }
+
+/*細項跳出窗*/
+    #open_6_8, #open_9_11, #open_12_15, #open_16_20, #open_21_23, #open_24_26, #open_27_28, #open_29_31, #open_32_34, #open_V_naAdj, #open_N_N,
+#open_P23, #open_V, #open_ADJ{
+        border:3px #5B5B5B;
+        font-size: 10pt;
+        margin: 0.5em 0.8em;
+        padding: 1em 0.5em;
+        border-radius: 5px;
+        width : 25%;
+        height: 3%;
+        display: block;
+        flex-grow: 0.31;
+        font-family: UD デジタル 教科書体 NK-R;
+    }
+
+/*下拉跳出窗格*/
+    #collapse, #collapse2, #collapse3, #colla6_8, #colla9_11, #colla12_15, #colla16_20, #colla21_23, #colla24_26, #colla27_28, #colla29_31, #colla32_34, #collaV_naAdj, #collaN_N, #collaP23, #collaV, #collaADJ{
+        margin: 0.2em 1em;
+        padding:  0em;
+        border-radius: 5px;
+        width : 90%;
+    }
+
+/*選單底色*/
+    #pattern_id_dropdown, #pattern_id_dropdown2, #pattern_id_dropdown3, #pattern_6_8, #pattern_9_11, #pattern_12_15, #pattern_16_20, #pattern_21_23, 
+#pattern_24_26, #pattern_27_28, #pattern_29_31, #pattern_32_34, #pattern_V_naAdj, #pattern_N_N, #pattern_P23, #pattern_V, #pattern_ADJ{
+        background-color: #E8E8D0;
+        margin: 0em 0em;
+        padding: 0.5em;
+        border-radius: 5px;
+        max-width: 100%;
+        font-size: 11pt;
+        font-weight: bold;
+    }
+
+/*標記*/
+	mark {
+	  background-color: #F8F4D4;
+      color : #408080;
+    }
+
+	.card {
+		background-color: #f9f4d4;
+        border-radius: 15px;
+        max-width: 100%;
+        margin: 0em 0.5em;
+	}
+
+    #table_header_body{
+       color: #FFF8D7;
+    }
+    #cardheader{
+        background-color: #C48888;
+        border-radius: 15px 15px 0px 0px;
+        color: #FFF8D7;
+        font-family: UD デジタル 教科書体 NK-B
+    }
