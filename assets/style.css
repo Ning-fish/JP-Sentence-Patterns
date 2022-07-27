@@ -139,6 +139,8 @@
 
 	footer.major {
 		padding-top: 3em;
+
+        
 	}
 
 
@@ -197,8 +199,9 @@
 		color: #FFFFFF;
 		text-align: center;
         width:100%;
-        height:7%;
+        height:3%;
 		padding: 1em 0;
+        font-size: 10px;
         background-color:#272727;
         font-family: UD デジタル 教科書体 NK-B;
 		
@@ -305,7 +308,7 @@
 		padding: 0.5em;
 		text-align: center;
 		background-position: center;
-		margin: 0 1em;
+		margin: 0 2em;
 		border-radius: 5px;
         font-family: UD デジタル 教科書体 NK-B;
 	}
@@ -321,6 +324,9 @@
     #table_header_body{
         text-align: left;
         font-size: 15px;
+        max-width: 100%;
+        margin: 0em 22em;
+        color: #5B5B5B;
     }
 /*選項*/
     #pattern_id_dropdown, #dict_dropdown{
@@ -379,22 +385,38 @@
 /*標記*/
 	mark {
 	  background-color: #F8F4D4;
-      color : #408080;
+       color: #408080;
     }
 
 	.card {
 		background-color: #f9f4d4;
         border-radius: 15px;
-        max-width: 100%;
-        margin: 0em 0.5em;
+        max-width: 90%;
+        margin: 0em 4em;
 	}
 
     #table_header_body{
-       color: #FFF8D7;
+       color: #613030;
+       font-size: 13pt;
+       font-family: UD デジタル 教科書体 NK-B;
+       width: 100%;
+       margin: 0em 0em;
+       line-height: 2.5;
     }
     #cardheader{
         background-color: #C48888;
         border-radius: 15px 15px 0px 0px;
         color: #FFF8D7;
-        font-family: UD デジタル 教科書体 NK-B
+        font-family: UD デジタル 教科書体 NK-B;
+    }
+
+/*選項底色*/
+    #pattern{
+        background-color: #E8E8D0;
+        margin: 0em 3em;
+        padding: 0.5em;
+        border-radius: 5px;
+        max-width: 35%;
+        font-size: 16pt;
+        font-family: UD デジタル 教科書体 NK-R;
     }
